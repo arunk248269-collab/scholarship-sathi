@@ -1,0 +1,70 @@
+import { StudentProfile } from '../types';
+
+export const DEMO_STUDENT_AARAV: StudentProfile = {
+  fullName: 'Aarav Sharma',
+  dateOfBirth: '2004-06-15',
+  gender: 'Male',
+  state: 'Karnataka',
+  district: 'Bengaluru Urban',
+  email: 'aarav.sharma2024@rvce.edu.in',
+  phone: '+91 98450 12345',
+  
+  educationLevel: 'Undergraduate',
+  degree: 'B.E.',
+  course: 'Computer Science & Engineering',
+  specialization: 'Artificial Intelligence & Systems',
+  college: 'R.V. College of Engineering, Bengaluru',
+  yearOfStudy: '3rd Year',
+  graduationYear: 2027,
+  academicPercentage: 78,
+  tenthMarksPercentage: 88,
+  twelfthMarksPercentage: 84,
+  backlogs: 0,
+
+  annualFamilyIncome: 180000,
+  incomeRange: '₹1–2 Lakh',
+  incomeCertificateUploaded: true,
+  incomeCertificateFileName: 'income_cert_2025_revenue_dept.pdf',
+
+  category: 'OBC',
+  isEws: false,
+  disabilityStatus: 'None',
+  minorityStatus: false,
+  firstGenerationLearner: false,
+  stateDomicile: 'Karnataka',
+  profileCompletionPercentage: 92,
+};
+
+export const EMPTY_STUDENT_PROFILE: StudentProfile = {
+  fullName: '',
+  dateOfBirth: '',
+  gender: 'Male',
+  state: '',
+  district: '',
+  email: '',
+  phone: '',
+  
+  educationLevel: 'Undergraduate',
+  degree: 'B.Tech / B.E.',
+  course: '',
+  specialization: '',
+  college: '',
+  yearOfStudy: '1st Year',
+  graduationYear: 2028,
+  academicPercentage: 65,
+  tenthMarksPercentage: 75,
+  twelfthMarksPercentage: 70,
+  backlogs: 0,
+
+  annualFamilyIncome: 250000,
+  incomeRange: '₹2–3 Lakh',
+  incomeCertificateUploaded: false,
+
+  category: 'General',
+  isEws: false,
+  disabilityStatus: 'None',
+  minorityStatus: false,
+  firstGenerationLearner: false,
+  stateDomicile: '',
+  profileCompletionPercentage: 35,
+};
